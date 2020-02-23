@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/lib/codemirror.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/lib/codemirror.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/edit/continuelist.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/display/fullscreen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/mode/markdown/markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/mode/overlay.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/display/placeholder.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/selection/mark-selection.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/mode/gfm/gfm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/mode/xml/xml.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror-spell-checker@1.1.2/dist/spell-checker.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/codemirror-spell-checker@1.1.2/dist/spell-checker.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked@0.8.0/lib/marked.min.js"></script>    
+
+    <link rel="stylesheet" href="src/css/simplemde.css">
+    <script src="src/js/codemirror/tablist.js"></script>
+    <script src="src/js/simplemde.js"></script>
+</head>
+<body>
+    <textarea id="MyID"></textarea>
+    <script>
+        var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+    </script>
+</body>
+</html>
